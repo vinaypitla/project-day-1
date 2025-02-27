@@ -1,0 +1,56 @@
+
+.vehicle-scroll {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 50s linear infinite;
+}
+.scrolling{
+    
+    color: #000;
+}
+.vehicle-scroll{
+    color: #000;
+    
+}
+.vehicle-card p {
+    color: #000000;
+   stroke-width: 1px;
+   stroke: blue;
+    font-size: 18px;
+}
+
+.vehicle-card {
+    border: 1px solid #fff8f8;
+    padding: 19px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-right: 30px;
+    background: rgb(13, 12, 17);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+h1 {
+    color: #ffffff;
+    text-shadow: 4px 4px 10px rgba(173, 70, 70, 0.8);
+}
+
+h2{
+    color: #fffcfc;
+}
+p{
+    color: #ffffff;
+}
+.vehicle-scroll h2{
+    color: #080808;
+}
+.text-link {
+    text-decoration: none;  /* Removes underline */
+    color: inherit;         /* Inherits the normal text color */
+    cursor: pointer;        /* Makes it clickable */
+}

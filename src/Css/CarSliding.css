@@ -1,0 +1,16 @@
+.slider-container {
+    width: 200%;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-video {
+    width: 50%; 
+        height: auto; 
+    max-height: 300px; 
+    object-fit: cover;
+    border-radius: 10px;
+}

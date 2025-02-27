@@ -9,6 +9,9 @@ import Contact from "./Components/Contact";
 import DashBord from "./Components/DashBord";
 import OrderConformation from "./Components/OrderConformation";
 import Registration from "./Components/Registration";
+import TestDrive from "./Components/TestDrive";
+import Submitted from "./Ecomponents/submitted";
+import "../src/App.css"
 
 export default function App() {
   return (
@@ -19,10 +22,13 @@ export default function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Vahicle" element={<Vahicle/>} />
           <Route path="/Admin" element={<Admin/>} />
+          <Route path="/TestDrive" element={<TestDrive/>}/>
           <Route path="/Catalog" element={<Catalog/>} />
           <Route path="/Payment" element={<Payment/>} />
           <Route path="/Contact" element={<Contact/>} />
           <Route path="/DashBord" element={<DashBord/>} />
+          <Route path="/submitted" element={<Submitted/>} />
+
           <Route path="/OrderConformation" element={<OrderConformation/>} />
           <Route path="/Registration" element={<Registration/>} />
 
